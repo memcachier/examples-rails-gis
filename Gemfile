@@ -14,3 +14,8 @@ end
 group :development do
   gem 'sqlite3'
 end
+
+# for Heroku, even though we never use the DB.
+group :production do
+  gem 'pg'
+end
