@@ -19,3 +19,7 @@ end
 group :production do
   gem 'pg'
 end
+
+# MemCachier
+gem 'memcachier'
+gem 'dalli'
