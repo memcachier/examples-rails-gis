@@ -3,6 +3,10 @@ MemCachier GIS Example
 
 This is an example Rails app that uses MemCachier to cache GIS lookups in Heroku.  This example is written with Rails 3.1.
 
+You can view a working version of this app at (http://memcachier-gis.herokuapp.com).  Running this app on your location machine in
+development will work as well, although then you won't be using MemCachier -- you'll be using a local cache.  MemCachier is currently
+only available in Heroku.
+
 Setting up MemCachier to work in Rails is very easy.  You need to make changes to Gemfile, production.rb, and any app code that
 you want cached.  These changes are covered in detail below:
 
