@@ -30,6 +30,6 @@ Ensure that the following configuration option is set in production.rb:
 Application Code
 -----
 
-In your application, use Rails.cache methods to access MemCachier.  A list of methods is available [here](http://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html).
+In your application, use Rails.cache methods to access MemCachier.  A list of methods is available [here](http://api.rubyonrails.org/classes/ActiveSupport/Cache/Store.html).  All the built-in Rails caching tools will work, too.
 
 Take a look at [app/controllers/home_controller.rb](http://github.com/memcachier/memcachier-gis-example/blob/master/app/controllers/home_controller.rb) in this repository for an example.
