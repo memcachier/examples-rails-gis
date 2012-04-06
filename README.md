@@ -18,7 +18,7 @@ MemCachier has been tested with the dalli memcache client.  Add the following Ge
     gem 'memcachier'
     gem 'dalli'
 
-Note that the memcachier gem just set the appropriate environment variables for Dalli. You can also do this manually in your production.rb file:
+Note that the `memcachier` gem just set the appropriate environment variables for Dalli. You can also do this manually in your production.rb file:
 
     ENV["MEMCACHE_SERVERS"] = ENV["MEMCACHIER_SERVERS"]
     ENV["MEMCACHE_USERNAME"] = ENV["MEMCACHIER_USERNAME"]
