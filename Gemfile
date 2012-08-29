@@ -21,5 +21,7 @@ group :production do
 end
 
 # MemCachier
+gem 'kgio'
 gem 'memcachier'
 gem 'dalli'
+
