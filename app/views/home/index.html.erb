@@ -1,7 +1,12 @@
-<h1>MemCachier GIS Example</h1>
-<p>Type in a location.  When you submit the form, we'll check the cache to see if that location has been searched before. If we get a hit, we'll return the results from the cache.  If not, we'll do the lookup.</p>
+<div class="page-header">
+  <h1>Rails caching example</h1>
+</div>
 
-<input type="text" id="location" />
-<input type="button" value="Submit" data-perform-lookup="true" />
+<p class="lead">Type in a location. When you submit the form, we'll check the
+cache to see if that location has been searched before. If we get a hit, we'll
+return the results from the cache. If not, we'll do the lookup.</p>
 
-<p id="coordinates"></p>
+<input type="text" id="location" style="margin-top:11px;height:17px;"/>
+<input type="button" value="Submit" data-perform-lookup="true" class="btn" />
+
+<p id="coordinates" class="lead text-info"></p>

@@ -1,13 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.1.10'
+gem 'rails', '~> 3.2.13'
 gem 'jquery-rails'
 gem 'geocoder'
 
 group :assets do
-  gem 'sass-rails',   '~> 3.1.5'
-  gem 'coffee-rails', '~> 3.1.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier', '>= 2.1.1'
 end
 
 # for POW
@@ -20,7 +18,10 @@ group :production do
   gem 'pg'
 end
 
+# ==========
 # MemCachier
+# ==========
+# We recommend kgio for better performance.
 gem 'kgio'
 gem 'memcachier'
 gem 'dalli'

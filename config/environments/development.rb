@@ -27,4 +27,7 @@ MemcachierGis::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  # Generate digests for assets URLs
+  config.assets.digest = true
 end

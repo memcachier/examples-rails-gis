@@ -1,5 +1,5 @@
 $(function() {
-  $("input[data-perform-lookup]").live("click", function() {
+  $("input[data-perform-lookup]").click(function() {
     var coordinates = $("#coordinates");
     coordinates.html("Working ...");
     $.get(
