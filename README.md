@@ -44,7 +44,7 @@ Alternatively, you can pass these options to config.cache_store (also
 in production.rb):
 
 ~~~~ .ruby
-config.cache_store = :dalli_store, ENV["MEMCACHIER_SERVERS"],
+config.cache_store = :dalli_store, ENV["MEMCACHIER_SERVERS"].split(','),
                     {:username => ENV["MEMCACHIER_USERNAME"],
                      :password => ENV["MEMCACHIER_PASSWORD"]}
 ~~~~
