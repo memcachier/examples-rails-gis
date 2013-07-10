@@ -2,7 +2,7 @@
 
 This is an example Rails app that uses
 [MemCachier](http://www.memcachier.com) to GIS lookups. This example
-is written with Rails 3.1.
+is written with Rails 3.2.
 
 You can view a working version of this app
 [here](http://memcachier-examples-rails.herokuapp.com).
