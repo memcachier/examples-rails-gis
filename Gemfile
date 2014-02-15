@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 3.2.13'
 gem 'jquery-rails'
 gem 'geocoder'
+gem 'newrelic_rpm'
 
 group :assets do
   gem 'uglifier', '>= 2.1.1'

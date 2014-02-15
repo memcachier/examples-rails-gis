@@ -49,6 +49,7 @@ GEM
     memcachier (0.0.2)
     mime-types (1.23)
     multi_json (1.7.7)
+    newrelic_rpm (3.7.2.192)
     pg (0.15.1)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -101,6 +102,7 @@ DEPENDENCIES
   jquery-rails
   kgio
   memcachier
+  newrelic_rpm
   pg
   rails (~> 3.2.13)
   sqlite3
