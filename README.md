@@ -1,4 +1,4 @@
-# MemCachier Rails Example
+# MemCachier Rails Example App
 
 This is an example Rails app that uses
 [MemCachier](http://www.memcachier.com) to GIS lookups. This example
@@ -10,6 +10,12 @@ Running this app on your local machine in development will work as
 well, although then you won't be using MemCachier -- you'll be using a
 local dummy cache. MemCachier is currently only available with various
 cloud providers.
+
+## Deploy to Heroku
+
+You can deploy this app yourself to Heroku to play with.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Setup MemCachier
 

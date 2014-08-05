@@ -1,0 +1,8 @@
+{
+  "name": "MemCachier Rails Example App",
+  "description": "Ruby-on-Rails (3.2) app illustrating how to use MemCachier to cache an external API (Geolocation)",
+  "repository": "https://github.com/memcachier/examples-rails",
+  "logo": "https://www.memcachier.com/assets/logo-large.png",
+  "keywords": ["ruby", "rails", "memcache", "memcachier", "caching", "geolocation"],
+  "addons": [ "memcachier" ]
+}
