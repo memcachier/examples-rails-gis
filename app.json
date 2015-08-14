@@ -4,5 +4,5 @@
   "repository": "https://github.com/memcachier/examples-rails",
   "logo": "https://www.memcachier.com/assets/logo-large.png",
   "keywords": ["ruby", "rails", "memcache", "memcachier", "caching", "geolocation"],
-  "addons": [ "memcachier" ]
+  "addons": [ "memcachier", "heroku-postgresql" ]
 }
