@@ -6,6 +6,7 @@ gem 'rails', '~> 3.2.22.2'
 gem 'jquery-rails'
 gem 'geocoder'
 gem 'newrelic_rpm'
+gem 'puma'
 
 group :assets do
   gem 'uglifier', '>= 2.1.1'
