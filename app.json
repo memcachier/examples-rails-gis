@@ -1,8 +1,13 @@
 {
   "name": "MemCachier Rails Example App",
   "description": "Ruby-on-Rails (3.2) app illustrating how to use MemCachier to cache an external API (Geolocation)",
-  "repository": "https://github.com/memcachier/examples-rails",
+  "keywords": ["ruby", "rails", "memcache", "memcachier", "caching", "geolocation", "performance", "dalli"],
   "logo": "https://www.memcachier.com/assets/logo-large.png",
-  "keywords": ["ruby", "rails", "memcache", "memcachier", "caching", "geolocation"],
-  "addons": [ "memcachier", "heroku-postgresql" ]
+  "image": "heroku/ruby",
+  "website": "https://www.memcachier.com",
+  "repository": "https://github.com/memcachier/examples-rails",
+  "addons": [ "memcachier", "heroku-postgresql" ],
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
 }
