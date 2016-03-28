@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2.19'
+ruby '2.3.0'
+
+gem 'rails', '~> 3.2.22.2'
 gem 'jquery-rails'
 gem 'geocoder'
 gem 'newrelic_rpm'
@@ -17,6 +19,7 @@ end
 # for Heroku, even though we never use the DB.
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 # ==========
