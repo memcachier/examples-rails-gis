@@ -29,10 +29,10 @@ MemCachier has been tested with the [dalli memcache
 client](https://github.com/mperham/dalli). Add the following Gem to
 your Gemfile:
 
-~~~~ .ruby
+```ruby
 gem 'memcachier'
 gem 'dalli'
-~~~~
+```
 
 Then run `bundle install` as usual.
 
@@ -40,28 +40,28 @@ Note that the `memcachier` gem simply sets the appropriate environment
 variables for Dalli. You can also do this manually in your
 production.rb file if you prefer:
 
-~~~~ .ruby
+```ruby
 ENV["MEMCACHE_SERVERS"] = ENV["MEMCACHIER_SERVERS"]
 ENV["MEMCACHE_USERNAME"] = ENV["MEMCACHIER_USERNAME"]
 ENV["MEMCACHE_PASSWORD"] = ENV["MEMCACHIER_PASSWORD"]
-~~~~
+```
 
 Alternatively, you can pass these options to config.cache_store (also
 in production.rb):
 
-~~~~ .ruby
+```ruby
 config.cache_store = :dalli_store, ENV["MEMCACHIER_SERVERS"].split(','),
                     {:username => ENV["MEMCACHIER_USERNAME"],
                      :password => ENV["MEMCACHIER_PASSWORD"]}
-~~~~
+```
 
 ### production.rb
 
 Ensure that the following configuration option is set in production.rb:
 
-~~~~ .ruby
+```ruby
 config.cache_store = :dalli_store
-~~~~
+```
 
 ## Using MemCachier
 
